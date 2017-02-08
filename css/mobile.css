@@ -10,6 +10,11 @@
         margin-bottom: 1em;
 
     }
+    .layout1 main{
+        min-height: 200px;
+    }
+    /*---------------------------------*/
+
     .layout3 section{
         flex-direction: column-reverse;
         min-height: 200px;
