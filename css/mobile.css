@@ -16,17 +16,21 @@
     /*---------------------------------*/
 
     .layout3 section{
-        flex-direction: column-reverse;
+        flex-direction: column;
         min-height: 200px;
-
+        /*flex-flow: column-reverse;*/
+        /*flex-flow: column;*/
+        /*justify-content: flex-end;*/
 
     }
+
     .layout3 aside, .layout3 main{
         width: 100%;
         margin-bottom: 1em;
-
     }
+
     .layout3 main{
         min-height: 200px;
+        order: -1;
     }
 }
