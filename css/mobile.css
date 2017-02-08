@@ -1,0 +1,27 @@
+@media (max-width : 380px) {
+
+    .layout1 section{
+        display: block;
+
+
+    }
+    .layout1 aside, .layout1 main{
+        width: 100%;
+        margin-bottom: 1em;
+
+    }
+    .layout2 section{
+        flex-direction: column-reverse;
+        min-height: 200px;
+
+
+    }
+    .layout2 aside, .layout2 main{
+        width: 100%;
+        margin-bottom: 1em;
+
+    }
+    .layout2 main{
+        /*min-height: 200px;*/
+    }
+}
