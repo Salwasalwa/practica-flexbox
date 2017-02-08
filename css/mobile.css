@@ -10,18 +10,18 @@
         margin-bottom: 1em;
 
     }
-    .layout2 section{
+    .layout3 section{
         flex-direction: column-reverse;
         min-height: 200px;
 
 
     }
-    .layout2 aside, .layout2 main{
+    .layout3 aside, .layout3 main{
         width: 100%;
         margin-bottom: 1em;
 
     }
-    .layout2 main{
-        /*min-height: 200px;*/
+    .layout3 main{
+        min-height: 200px;
     }
 }

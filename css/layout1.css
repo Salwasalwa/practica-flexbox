@@ -3,35 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     width: 90%;
     margin: auto;
 }
+
 .layout1 header {
-    width: 100%;
     min-height: 75px;
     background: silver;
     line-height: 100px;
     padding: 0 2em;
     margin: 1em 0;
 }
+
 .layout1 section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: 0.5em 0;
-
     /*height: 700px;*/
-
 }
-.layout1 aside{
+
+.layout1 aside {
     background: silver;
     width: 29%;
     min-height: 100px;
     line-height: 100px;
     padding: 0 2em;
-
 }
+
 .layout1 main {
     width: 70%;
     background: silver;
@@ -40,16 +41,17 @@ body {
     padding: 2em 2em;
 }
 
-    /*------------------*/
+
+/*------------------*/
 
 .layout2 header {
-    width: 100%;
     min-height: 75px;
     background: silver;
     line-height: 100px;
     padding: 0 2em;
     margin: 1em 0;
 }
+
 .layout2 section {
     display: flex;
     justify-content: space-between;
@@ -57,14 +59,14 @@ body {
     min-height: 600px;
     margin: 0.5em 0;
     height: 700px;
-
 }
-.layout2 aside{
+
+.layout2 aside {
     background: silver;
     width: 29%;
     padding: 2em 2em;
-
 }
+
 .layout2 main {
     width: 70%;
     background: silver;
@@ -75,13 +77,13 @@ body {
 /*-------------------------------*/
 
 .layout3 header {
-    width: 100%;
     min-height: 75px;
     background: silver;
     line-height: 100px;
     padding: 0 2em;
     margin: 1em 0;
 }
+
 .layout3 section {
     display: flex;
     justify-content: space-between;
@@ -89,14 +91,15 @@ body {
     margin: 0.5em 0;
     flex-direction: row-reverse;
 }
-.layout3 aside{
+
+.layout3 aside {
     background: silver;
     width: 29%;
     min-height: 100px;
     line-height: 100px;
     padding: 0 2em;
-
 }
+
 .layout3 main {
     width: 70%;
     background: silver;
@@ -109,31 +112,31 @@ body {
 /*------------------*/
 
 .layout4 header {
-width: 100%;
-min-height: 75px;
-background: silver;
-line-height: 100px;
-padding: 0 2em;
-margin: 1em 0;
+    min-height: 75px;
+    background: silver;
+    line-height: 100px;
+    padding: 0 2em;
+    margin: 1em 0;
 }
+
 .layout4 section {
-display: flex;
-justify-content: space-between;
-align-items: stretch;
-flex-direction: row-reverse;
-min-height: 600px;
-margin: 0.5em 0;
-height: 700px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    min-height: 600px;
+    margin: 0.5em 0;
+    height: 700px;
 }
-.layout4 aside{
-background: silver;
-width: 29%;
-padding: 2em 2em;
 
+.layout4 aside {
+    background: silver;
+    width: 29%;
+    padding: 2em 2em;
 }
+
 .layout4 main {
-width: 70%;
-background: silver;
-padding: 2em 2em;
+    width: 70%;
+    background: silver;
+    padding: 2em 2em;
 }
